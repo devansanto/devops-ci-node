@@ -2,9 +2,9 @@ name: Node CI Pipeline
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   pull_request:
+    branches: [ main ]
 
 jobs:
   build:
@@ -12,20 +12,15 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4 # Update ke v4 sekalian biar makin stabil
+        uses: actions/checkout@v4
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: 'npm' # Tambahkan cache supaya install lebih cepat
 
       - name: Install dependencies
         run: npm install
-
-      # --- TAMBAHKAN LANGKAH INI ---
-      - name: Fix Permissions
-        run: chmod +x ./node_modules/.bin/eslint
 
       - name: Run Lint
         run: npm run lint
