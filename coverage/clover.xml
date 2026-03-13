@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1773384083172" clover="3.2.0">
+  <project timestamp="1773384083172" name="All files">
+    <metrics statements="10" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1" elements="12" coveredelements="6" complexity="0" loc="10" ncloc="10" packages="1" files="3" classes="3"/>
+    <file name="index.js" path="C:\Users\asus1\devops-ci-node\index.js">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+    </file>
+    <file name="jest.config.js" path="C:\Users\asus1\devops-ci-node\jest.config.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+    </file>
+    <file name="server.js" path="C:\Users\asus1\devops-ci-node\server.js">
+      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
