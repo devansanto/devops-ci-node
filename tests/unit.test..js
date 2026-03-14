@@ -1,5 +1,3 @@
-const app = require("../index");
-
 describe("Unit Test Basic", () => {
 
   test("1 + 1 harus sama dengan 2", () => {
