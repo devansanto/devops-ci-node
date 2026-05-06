@@ -6,4 +6,8 @@ app.get("/", (req, res) => {
   res.json({ message: "Hello DevOps - Devan Santo" });
 });
 
+app.get("/health", (req, res) => {
+  res.status(200).json({ status: "ok" });
+});
+
 module.exports = app;
