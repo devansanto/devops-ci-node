@@ -1,21 +1,33 @@
 const express = require("express");
+const client = require("prom-client");
 
 const app = express();
+const PORT = 3000;
 
-const PORT = process.env.PORT || 3000;
+// collect default metrics
+client.collectDefaultMetrics();
 
+// route utama
 app.get("/", (req, res) => {
   res.json({
-    message: "DevOps IaC Running"
+    message: "Hello DevOps - Devan Santo"
   });
 });
 
+// endpoint health
 app.get("/health", (req, res) => {
-  res.status(200).json({
-    status: "OK"
+  res.json({
+    status: "UP"
   });
 });
 
+// endpoint metrics untuk prometheus
+app.get("/metrics", async (req, res) => {
+  res.set("Content-Type", client.register.contentType);
+  res.end(await client.register.metrics());
+});
+
+// start server
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
