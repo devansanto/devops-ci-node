@@ -13,7 +13,6 @@ Tujuan project:
 ## Anggota Kelompok
 
 | Nama                          | NIM        | 
-| ------                        | -----      | 
 | Febriani Dwi Alviah           | 231050600  | 
 | Armando Firlian Ihza Yulianto | 2310506016 | 
 | Devan Putra Susanto           | 2340506072 | 
@@ -73,20 +72,7 @@ Developer → GitHub → GitHub Actions → Docker → Railway → User
 
 ---
 
-## Struktur Folder
 
-project-root/
-├── src/
-├── public/
-├── tests/
-├── .github/
-│ └── workflows/
-├── Dockerfile
-├── docker-compose.yml
-├── package.json
-└── README.md
-
----
 
 ### Arsitektur Sistem
 
