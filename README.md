@@ -13,7 +13,7 @@ Tujuan project:
 ## Anggota Kelompok
 
 | Nama                          | NIM        | 
-| Febriani Dwi Alviah           | 231050600  | 
+| Febriani Dwi Alviah           | 2310506010 | 
 | Armando Firlian Ihza Yulianto | 2310506016 | 
 | Devan Putra Susanto           | 2340506072 | 
 
@@ -117,7 +117,7 @@ Deployment
 
 * https://github.com/ArmandoFirlian/Simpel-CI-Project/settings/pages
 
-
+* https://github.com/febrianide/DEVELOPMENT-AND-OPERATION.git
 
 Production URL:
 
